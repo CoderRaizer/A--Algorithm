@@ -20,7 +20,7 @@ public class MainProcess {
 
         int quantityPointNode;
         System.out.print("Enter quantity Point Node : ");quantityPointNode = o.nextInt();
-        mapbucket.inputMapNODE(10);
+        mapbucket.inputMapNODE(quantityPointNode);
 
         LinkedList<Node> openList = new LinkedList<>();
         LinkedList<Node> closeList = new LinkedList<>();
